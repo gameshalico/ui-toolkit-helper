@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIToolkitHelper/UI/Uss/HelperComponent.uss?fileID=7433441132597879392&amp;guid=27fca0b7f7193b244b72136f47d5fd9d&amp;type=3#HelperComponent" />
+    <Style src="project://database/Assets/UIToolkitHelper/UI/Uss/HelperAnimation.uss?fileID=7433441132597879392&amp;guid=fd46be6fcb97fe64bbe05851bdd23049&amp;type=3#HelperAnimation" />
+    <UIToolkitHelper.Sections.Section name="Section" animation-type="SlideUp" is-shown="true" class="slide-up" style="flex-grow: 1;">
+        <ui:VisualElement style="background-color: rgba(0, 0, 0, 0.24); height: 50px;">
+            <UIToolkitHelper.FillBars.ColorFillBar fill-color="#00D9FFFF" name="ColorFillBar" />
+            <UIToolkitHelper.FillBars.ColorFillBar fill-color="#FF0000FF" fill-amount="0.55" />
+        </ui:VisualElement>
+    </UIToolkitHelper.Sections.Section>
+    <ui:ScrollView />
+</ui:UXML>
