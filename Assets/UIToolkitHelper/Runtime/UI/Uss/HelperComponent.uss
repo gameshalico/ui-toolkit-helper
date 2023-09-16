@@ -11,6 +11,11 @@
     position: absolute;
 }
 
+.section__content-container {
+    width: 100%;
+    height: 100%;
+}
+
 .visibility-toggle {
     visibility: hidden;
 }

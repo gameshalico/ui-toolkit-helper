@@ -26,7 +26,8 @@ namespace UIToolkitHelper.Sections
             _content = new VisualElement
             {
                 name = "section-content-container",
-                usageHints = UsageHints.GroupTransform
+                usageHints = UsageHints.GroupTransform,
+                pickingMode = PickingMode.Ignore
             };
             _content.AddToClassList(contentUssClassName);
             hierarchy.Add(_content);
